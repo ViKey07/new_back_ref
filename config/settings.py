@@ -157,12 +157,12 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-cloudinary.config(
-    cloud_name="www-techis-io",
-    api_key="891747999686865",
-    api_secret="seWq_dLQRcb7O5eMY-XdAuznU_w",
-    secure=True
-)
+# cloudinary.config(
+#     cloud_name="www-techis-io",
+#     api_key="891747999686865",
+#     api_secret="seWq_dLQRcb7O5eMY-XdAuznU_w",
+#     secure=True
+# )
 
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend']
